@@ -1,6 +1,7 @@
 # nf-keras-hdf5
 
 A Keras HDF5 adapter for [neural-fortran](https://github.com/modern-fortran/neural-fortran).
+
 nf-keras-hdf5 allows you to load neural-fortran networks from Keras models saved
 in the HDF5 format.
 
@@ -70,22 +71,12 @@ with neural-fortran:
 2. [cnn_from_keras](example/cnn_from_keras.f90): Creating a pre-trained
   convolutional model from a Keras HDF5 file and running the inference.
 
-Examples 3-6 rely on [curl](https://curl.se/) to download the needed datasets,
-so make sure you have it installed on your system.
-Most Linux OSs have it out of the box.
-The dataset will be downloaded only the first time you run the example in any
-given directory.
-
-If you're using Windows OS or don't have curl for any other reason,
-download [mnist.tar.gz](https://github.com/modern-fortran/neural-fortran/files/8498876/mnist.tar.gz)
-directly and unpack in the directory in which you will run the example program.
-
 ## Acknowledgement
 
 Development of convolutional networks in neural-fortran and Keras HDF5 adapters
 in nf-keras-hdf5 was funded by a contract from NASA Goddard Space Flight Center
 to the University of Miami.
-Development of optimizers is supported by the Google Summer of Code 2023 project
+Development of optimizers was supported by the Google Summer of Code 2023 project
 awarded to [Fortran-lang](https://github.com/fortran-lang).
 
 <img src="assets/nasa.png" alt="NASA logo">
