@@ -13,4 +13,4 @@ link = ["hdf5", "hdf5_fortran"]
 functional = { git = "https://github.com/wavebitscientific/functional-fortran" }
 h5fortran = { git = "https://github.com/geospace-code/h5fortran" }
 json-fortran = { git = "https://github.com/jacobwilliams/json-fortran" }
-neural-fortran = { path = "../neural-fortran" }
+neural-fortran = { git = "https://github.com/modern-fortran/neural-fortran" }
